@@ -1,2 +1,29 @@
 # GA Credentials
 ## Assessment Authoring Layout Archetypes
+
+### Instructions
+
+1 Fork this repository
+1 Choose a Company Archetype
+  - Ecommerce
+  - Creative Portfolio (Actor, Musician, Dancer, Director, etc.)
+  - Digital Agency
+  - Social Media
+  - Publication (Web-based)
+  - Publication (Print-based)
+  - Museum / Landmark
+  - Blog / Online Journal
+  - Restaurant
+  - Event / Film Landing Page / Invitation
+  - Video / Syndication
+  - Personal Banking
+1 Choose a Layout Archetype
+  - Big Hero
+  - Fixed Sidebar
+  - Portfolio
+  - Side-Scroll
+  - Publication / Blog
+  - Pinterest
+  - Drupal-Esque Modular
+  - Bootstrap-esque
+  - Text-Heavy

@@ -27,3 +27,14 @@
   * Drupal-Esque Modular
   * Bootstrap-esque
   * Text-Heavy
+
+### Layout Archetypes
+
+#### Big Hero
+![Big Hero](layouts/big-hero.png)
+
+#### Fixed Sidebar
+![Fixed Sidebar](layouts/fixed-sidebar.png)
+
+#### Portfolio
+![Portfolio](layouts/portfolio.png)

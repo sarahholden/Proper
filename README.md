@@ -1,9 +1,11 @@
 # GA Credentials
 ## Assessment Authoring Instructions
 
-### Step 1: Fork this repository
+### Creating the Codebase
 
-### Step 2: Choose a Company Archetype
+#### Step 1: Fork this repository
+
+#### Step 2: Choose a Company Archetype
 * Ecommerce 
   *  For instance: https://www.everlane.com/
 * Creative Portfolio (Actor, Musician, Dancer, Director, etc.)  
@@ -29,13 +31,18 @@
 * Personal Banking  
   *  For instance: https://www.tdbank.com
 
-### Step 3: Choose a Layout Archetype
+#### Step 3: Choose a Layout Archetype
 
-#### Big Hero
+##### Big Hero
 ![Big Hero](layouts/big-hero.png)
+Can be found in `/big-hero`
 
-#### Fixed Sidebar
+##### Fixed Sidebar
 ![Fixed Sidebar](layouts/fixed-sidebar.png)
+Can be found in `/fixed-sidebar`
 
-#### Portfolio
+##### Portfolio
 ![Portfolio](layouts/portfolio.png)
+Can be found in `/portfolio`
+
+

@@ -3,8 +3,8 @@
 
 ### Instructions
 
-1 Fork this repository
-2 Choose a Company Archetype
+1. Fork this repository
+2. Choose a Company Archetype
   * Ecommerce
   * Creative Portfolio (Actor, Musician, Dancer, Director, etc.)
   * Digital Agency
@@ -17,7 +17,7 @@
   * Event / Film Landing Page / Invitation
   * Video / Syndication
   * Personal Banking
-3 Choose a Layout Archetype
+3. Choose a Layout Archetype
   * Big Hero
   * Fixed Sidebar
   * Portfolio

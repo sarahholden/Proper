@@ -1,1 +1,2 @@
-# layout-archetypes
+# GA Credentials
+## Assessment Authoring Layout Archetypes

@@ -1,10 +1,11 @@
 # GA Credentials
 ## Assessment Authoring Layout Archetypes
 
-### Instructions
+## Instructions
 
-1. Fork this repository
-2. Choose a Company Archetype
+### Step 1: Fork this repository
+
+### Step 2: Choose a Company Archetype
   * Ecommerce
   * Creative Portfolio (Actor, Musician, Dancer, Director, etc.)
   * Digital Agency
@@ -17,18 +18,8 @@
   * Event / Film Landing Page / Invitation
   * Video / Syndication
   * Personal Banking
-3. Choose a Layout Archetype
-  * Big Hero
-  * Fixed Sidebar
-  * Portfolio
-  * Side-Scroll
-  * Publication / Blog
-  * Pinterest
-  * Drupal-Esque Modular
-  * Bootstrap-esque
-  * Text-Heavy
 
-### Layout Archetypes
+### Step 3: Choose a Layout Archetype
 
 #### Big Hero
 ![Big Hero](layouts/big-hero.png)

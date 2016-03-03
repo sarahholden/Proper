@@ -31,10 +31,10 @@
 
 ### Step 3: Choose a Layout Archetype
 
-| Big Hero | Fixed Sidebar | Portfolio | Portfolio | 
-| -------- | ------------- | --------- | --------- |
-| ![Big Hero](layouts/big-hero.png) | ![Fixed Sidebar](layouts/fixed-sidebar.png) | ![Portfolio](layouts/portfolio.png) | ![Portfolio](layouts/portfolio.png) |
-| Can be found in `/big-hero` | Can be found in `/fixed-sidebar` | Can be found in `/portfolio` |  Can be found in `/portfolio` | 
+| Big Hero | Fixed Sidebar | Portfolio | 
+| -------- | ------------- | --------- |
+| ![Big Hero](layouts/big-hero.png) | ![Fixed Sidebar](layouts/fixed-sidebar.png) | ![Portfolio](layouts/portfolio.png) |
+| Can be found in `/big-hero` | Can be found in `/fixed-sidebar` | Can be found in `/portfolio` | 
 
 ### Step 4: Decide on a Company Name and Concept
 

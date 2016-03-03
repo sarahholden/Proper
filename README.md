@@ -32,17 +32,17 @@
 ### Step 3: Choose a Layout Archetype
 
 ### Big Hero
-![Big Hero](layouts/big-hero.png)
+![Big Hero](layouts/big-hero.png | width=400)
 
 Can be found in `/big-hero`
 
 ### Fixed Sidebar
-![Fixed Sidebar](layouts/fixed-sidebar.png)
+![Fixed Sidebar](layouts/fixed-sidebar.png | width=400)
 
 Can be found in `/fixed-sidebar`
 
 ### Portfolio
-![Portfolio](layouts/portfolio.png)
+![Portfolio](layouts/portfolio.png | width=400)
 
 Can be found in `/portfolio`
 

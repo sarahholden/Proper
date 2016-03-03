@@ -1,7 +1,5 @@
 # GA Credentials
-## Assessment Authoring Instructions
-
-### TASK 1: Creating the Codebase
+## Assessment Authoring Task 1: Creating the Codebase
 
 ### Step 1: Fork this repository
 

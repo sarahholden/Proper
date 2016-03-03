@@ -38,7 +38,7 @@
 
 ### Step 4: Decide on a Company Name and Concept
 
-Report back with:
+Email GA with your proposed:
 
 - Company Archetype 
 - Layout Archetype
@@ -46,17 +46,28 @@ Report back with:
 
 ### Step 5: GA Reviews, Provides Feedback
 
+GA will review your submission and get back to you with any necessary fixes.
+
 ### Step 6: Build!
+
+Rename your forked repository to the new company name. Copy the files from your selected layout archetype into the main directory of your repo. Delete unnecessary files. You should have:
+
+css
+images
+index.html
+js
 
 - Create company identity (Colors, Typography, Imagery)
 - Add content (ipsum is fine - http://meettheipsums.com/)
-- Edit / add additional HTML (as necessary)
-- Edit / add additional CSS (as necessary)
+- Edit, add additional HTML (as necessary)
+- Edit, add additional CSS (as necessary)
+
+Your website should be a fully-realized, potentially multiple page, static website.
+Here is an exemplar submission: _____.
 
 ### Step 7: Deliver
 
-- A fully-realized, potentially multiple page, static website.
-- A list of suggested features you envision on the site (i.e. potential code challenges)
+Email GA with a link to your repo and a list of suggested features you envision on the site (i.e. potential code challenges)
 
 ### Step 8: GA Reviews, Provides Feedback
 

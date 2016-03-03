@@ -46,16 +46,21 @@ Email GA with your proposed:
 
 ### Step 5: GA Reviews, Provides Feedback
 
-GA will review your submission and get back to you with any necessary fixes.
+GA will review your submission and get back to you with any necessary edits.
 
-### Step 6: Build!
+### Step 6: Organize your Repository
 
 Rename your forked repository to the new company name. Copy the files from your selected layout archetype into the main directory of your repo. Delete unnecessary files. You should have:
 
-css
-images
-index.html
-js
+- css
+- images
+- index.html
+- js
+- README.md
+
+### Step 7: Build!
+
+Do your thang:
 
 - Create company identity (Colors, Typography, Imagery)
 - Add content (ipsum is fine - http://meettheipsums.com/)
@@ -65,10 +70,10 @@ js
 Your website should be a fully-realized, potentially multiple page, static website.
 Here is an exemplar submission: _____.
 
-### Step 7: Deliver
+### Step 8: Deliver
 
 Email GA with a link to your repo and a list of suggested features you envision on the site (i.e. potential code challenges)
 
-### Step 8: GA Reviews, Provides Feedback
+### Step 9: GA Reviews, Provides Feedback
 
-GA will review your submission and get back to you with any necessary fixes.
+GA will review your submission and get back to you with any necessary edits.

@@ -67,7 +67,7 @@ Do your thang:
 - Edit, add additional HTML (as necessary)
 - Edit, add additional CSS (as necessary)
 
-Your website should be a fully-realized, potentially multiple page, static website.
+Your website should be a fully-realized, potentially multi-page, static website.
 Here is an exemplar submission: _____.
 
 ### Step 8: Deliver

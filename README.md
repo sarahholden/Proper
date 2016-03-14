@@ -36,13 +36,24 @@
 | ![Big Hero](layouts/big-hero.png) | ![Fixed Sidebar](layouts/fixed-sidebar.png) | ![Portfolio](layouts/portfolio.png) |
 | Can be found in `/big-hero` | Can be found in `/fixed-sidebar` | Can be found in `/portfolio` | 
 
-### Step 4: Decide on a Company Name and Concept
+### Step 4: Create a Fake Company
 
-Email GA with your proposed:
+Email GA with a short, 1 paragraph proposal, specifying:
 
-- Company Archetype 
-- Layout Archetype
-- Company Name
+- the Company Name 
+- the Company Archetype
+- the Layout Archetype
+- what Pages / Features the website will have
+- a short narrative about the company
+
+For instance: 
+
+- "Next Level"
+- Digital Agency
+- Fixed Sidebar
+- Home, About Us, Blog, Careers, Take it to the Next Level
+  * Contact form on "Take it to Next Level" page
+- "The Next Level is a digital Agency providing Web and Mobile Application solutions for a variety of clients."
 
 ### Step 5: GA Reviews, Provides Feedback
 
@@ -58,16 +69,19 @@ Rename your forked repository to the new company name. Copy the files from your 
 - js
 - README.md
 
-### Step 7: Build!
+### Step 7: Build the thing!
 
-Do your thang:
+Do the following: 
 
 - Create company identity (Colors, Typography, Imagery)
 - Add content (ipsum is fine - http://meettheipsums.com/)
 - Edit, add additional HTML (as necessary)
 - Edit, add additional CSS (as necessary)
 
+Please adhere as closely as you can to Google's Style Guides for [HTML & CSS](https://google.github.io/styleguide/htmlcssguide.xml) / [JS](https://google.github.io/styleguide/javascriptguide.xml)
+
 Your website should be a fully-realized, potentially multiple page, static website.
+
 Here is an exemplar submission: _____.
 
 ### Step 8: Deliver

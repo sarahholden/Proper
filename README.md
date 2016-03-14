@@ -1,33 +1,21 @@
 # GA Credentials
-## Assessment Authoring Task 1: Creating the Codebase
+## You've been hired to create a website for a fictiti
 
 ### Step 1: Fork this repository
 
 ### Step 2: Choose a Company Archetype
-* Ecommerce 
-  *  For instance: https://www.everlane.com/
-* Creative Portfolio (Actor, Musician, Dancer, Director, etc.)  
-  *  For instance: https://jeremiebattaglia.com/en/
-* Digital Agency  
-  *  For instance: http://etchapps.com/
-* Social Media  
-  *  For instance: https://vine.co/
-* Publication (Web-based) 
-  *  For instance: https://medium.com/
-* Publication (Print-based) 
-  *  For instance: http://www.newyorker.com/
-* Museum / Landmark 
-  *  For instance: https://www.si.edu/
-* Blog / Online Journal 
-  *  For instance: http://dcurt.is/
-* Restaurant  
-  *  For instance: http://www.fifteen.net/
-* Event / Film Landing Page / Invitation  
-  *  For instance: http://vivaco.com/demo/ventcamp/
-* Video / Syndication 
-  *  For instance: https://www.ted.com/
-* Personal Banking  
-  *  For instance: https://www.tdbank.com
+* Ecommerce (e.g. https://www.everlane.com/)
+* Creative Artist Portfolio (https://jeremiebattaglia.com/en/)
+* Digital Agency (e.g. http://etchapps.com/)
+* Social Media (e.g. https://vine.co/)
+* Web-based Publication (Web-based) (e.g. https://medium.com/) 
+* Print-based Publication (e.g. http://www.newyorker.com/)
+* Museum / Landmark (e.g. https://www.si.edu/)
+* Blog / Online Journal (e.g. http://dcurt.is/)
+* Restaurant (e.g. http://www.fifteen.net/)
+* Event / Film Landing Page (e.g. http://vivaco.com/demo/ventcamp/)
+* Video / Syndication (e.g. https://www.ted.com/)
+* Personal Banking (e.g. https://www.tdbank.com)
 
 ### Step 3: Choose a Layout Archetype
 
@@ -80,7 +68,7 @@ Do the following:
 
 Please adhere as closely as you can to Google's Style Guides for [HTML & CSS](https://google.github.io/styleguide/htmlcssguide.xml) / [JS](https://google.github.io/styleguide/javascriptguide.xml)
 
-Your website should be a fully-realized, potentially multiple page, static website.
+Your website should be a fully-realized, potentially multiple page. You are welcome to add JS functionality, but a static website is sufficient.
 
 Here is an exemplar submission: _____.
 

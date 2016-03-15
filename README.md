@@ -78,7 +78,7 @@ Please adhere as closely as you can to Google's Style Guides for [HTML & CSS](ht
 
 Your website should be a fully-realized, potentially multiple page. You are welcome to add JS functionality, but a static website is sufficient.
 
-Here is an exemplar submission: [The Explorer](./explorer.zip).
+Here is an exemplar submission: [The Explorer](https://github.com/ga-credentials/AssessmentAuthoring/raw/codebase/explorer.zip).
 
 ### Step 3: Deliver
 

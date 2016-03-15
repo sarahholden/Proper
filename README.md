@@ -8,7 +8,7 @@ You've been commissioned to create a codebase for GA Credentials. This task is b
 We've provided for you assets to help with this process, and a detailed step-by-step guide below.
 
 Here is an exmaple of a very successful past codebase, and the level of rigor we expect in code and Design:
-______ (link to Explorer).
+[The Explorer](https://github.com/ga-credentials/AssessmentAuthoring/raw/codebase/explorer.zip).
 
 ## Deliverable 1. Brainstorm / Proposal. 
 

@@ -5,7 +5,7 @@ You've been commissioned to create a codebase for GA Credentials. This task is b
 - **Deliverable 1.** Brainstorm / Proposal. 
 - **Deliverable 2.** Codebase Creation.
 
-We've provided for you assets to help with this process, and a detailed step-by-step below.
+We've provided for you assets to help with this process, and a detailed step-by-step guide below.
 
 Here is an exmaple of a very successful past codebase, and the level of rigor we expect in code and Design:
 ______ (link to Explorer).
@@ -35,24 +35,19 @@ ______ (link to Explorer).
 | ![Big Hero](layouts/big-hero.png) | ![Fixed Sidebar](layouts/fixed-sidebar.png) | ![Portfolio](layouts/portfolio.png) |
 | Can be found in `/big-hero` | Can be found in `/fixed-sidebar` | Can be found in `/portfolio` | 
 
-### Step 4: Create a Fake Company
+### Step 4: Send GA a Proposed Codebase Outline
 
-Email GA with a short, 1 paragraph proposal, specifying:
+Email GA with one paragraph proposal, specifying:
 
+- a short narrative about the company
 - the Company Name 
 - the Company Archetype
 - the Layout Archetype
 - what Pages / Features the website will have
-- a short narrative about the company
 
 For instance: 
 
-- "Next Level"
-- Digital Agency
-- Fixed Sidebar
-- Home, About Us, Blog, Careers, Take it to the Next Level
-- Contact form on "Take it to Next Level" page
-- "The Next Level is a digital Agency providing Web and Mobile Application solutions for a variety of clients."
+"I am going to create a landing page for "The Explorer", a Web-based Publication, that will use the Long Scroll layout. The page will be long scrolling and have several sections populated with different text and images to do with Space and Exploration. The hero space will be populated with the most recent blog article. There will be an additional section of recent blog articles. There will be a blockquote. There will be a simple photo slideshow (using Owl Carousel or custom jQuery). There will be a simple "parrallax" affect with background-attachment: fixed. There will be a Social Media tab fixed on scroll."
 
 ### Step 5: GA Reviews, Provides Feedback
 
@@ -83,7 +78,7 @@ Please adhere as closely as you can to Google's Style Guides for [HTML & CSS](ht
 
 Your website should be a fully-realized, potentially multiple page. You are welcome to add JS functionality, but a static website is sufficient.
 
-Here is an exemplar submission: _____.
+Here is an exemplar submission: [The Explorer](./explorer.zip).
 
 ### Step 3: Deliver
 

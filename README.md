@@ -1,6 +1,6 @@
 # GA Credentials - Codebase Authoring
 
-You've been commissioned to create a codebase for GA Credentials. This task is broken into two deliverables, with the ultimate goal a fully-realized, static website. 
+You've been commissioned to create a codebase for GA Credentials. This task is broken into two deliverables, with the ultimate goal a fully-realized website. 
 
 - **Deliverable 1.** Brainstorm / Proposal. 
 - **Deliverable 2.** Codebase Creation.

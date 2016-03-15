@@ -2,8 +2,8 @@
 
 You've been commissioned to create a codebase for GA Credentials. This task is broken into two deliverables, with the ultimate goal a fully-realized, static website. 
 
-Deliverable 1. Brainstorm / Proposal. 
-Deliverable 2. Codebase Creation.
+- **Deliverable 1.** Brainstorm / Proposal. 
+- **Deliverable 2.** Codebase Creation.
 
 We've provided for you assets to help with this process, and a detailed step-by-step below.
 

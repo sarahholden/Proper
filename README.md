@@ -6,7 +6,7 @@ We've provided for you assets to help with this process, and a detailed step-by-
 
 Here is an exmaple of a very successful past set of Code Challenges, and the level of rigor we expect in code: (PROMPTS? GIFS? SUCCESS CRITERIA? CODEBASE? SOLUTIONS?).
 
-## Creating the Code Challenges 
+## Creating the Code Challenges
 
 ### Step 1: Receive materials from GA
 
@@ -32,6 +32,10 @@ Some examples of JS Code Challenges:
 - Implement Smooth Scroll
 
 ### Step 3: Complete a Content Outline
+
+Fill out the following document:
+
+Here is an example submission: 
 
 ### Step 4: 
 

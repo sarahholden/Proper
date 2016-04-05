@@ -1,79 +1,46 @@
-# GA Credentials
-## Assessment Authoring Task 1: Creating the Codebase
+# GA Credentials - Level 2 Code Challenge Authoring
 
-### Step 1: Fork this repository
+You've been commissioned to create 3 Javascript Code Challenge for GA Credentials. 
 
-### Step 2: Choose a Company Archetype
-* Ecommerce 
-  *  For instance: https://www.everlane.com/
-* Creative Portfolio (Actor, Musician, Dancer, Director, etc.)  
-  *  For instance: https://jeremiebattaglia.com/en/
-* Digital Agency  
-  *  For instance: http://etchapps.com/
-* Social Media  
-  *  For instance: https://vine.co/
-* Publication (Web-based) 
-  *  For instance: https://medium.com/
-* Publication (Print-based) 
-  *  For instance: http://www.newyorker.com/
-* Museum / Landmark 
-  *  For instance: https://www.si.edu/
-* Blog / Online Journal 
-  *  For instance: http://dcurt.is/
-* Restaurant  
-  *  For instance: http://www.fifteen.net/
-* Event / Film Landing Page / Invitation  
-  *  For instance: http://vivaco.com/demo/ventcamp/
-* Video / Syndication 
-  *  For instance: https://www.ted.com/
-* Personal Banking  
-  *  For instance: https://www.tdbank.com
+We've provided for you assets to help with this process, and a detailed step-by-step guide below.
 
-### Step 3: Choose a Layout Archetype
+Here is an exmaple of a very successful past set of Code Challenges, and the level of rigor we expect in code: (PROMPTS? GIFS? SUCCESS CRITERIA? CODEBASE? SOLUTIONS?).
 
-| Big Hero | Fixed Sidebar | Portfolio | 
-| -------- | ------------- | --------- |
-| ![Big Hero](layouts/big-hero.png) | ![Fixed Sidebar](layouts/fixed-sidebar.png) | ![Portfolio](layouts/portfolio.png) |
-| Can be found in `/big-hero` | Can be found in `/fixed-sidebar` | Can be found in `/portfolio` | 
+## Creating the Code Challenges 
 
-### Step 4: Decide on a Company Name and Concept
+### Step 1: Receive materials from GA
 
-Email GA with your proposed:
+Github Repo with:
 
-- Company Archetype 
-- Layout Archetype
-- Company Name
+- Codebase
+- Prompt Templates
+
+### Step 2: Brainstorm Code Challenge Ideas
+
+Some examples of JS Code Challenges:
+
+- Lazy load articles from an API
+- Add a twitter feed
+- Add Weather to a Page
+- Parse JSON Data
+- Handle AJAX Errors
+- Add Drag-and-Drop functionality to an order form
+- Perform form validation
+- Filter and organize content by tags
+- Create a Modal Pop-up
+- Program a collapsible mobile nav
+- Implement Smooth Scroll
+
+### Step 3: Complete a Content Outline
+
+### Step 4: 
 
 ### Step 5: GA Reviews, Provides Feedback
 
-GA will review your submission and get back to you with any necessary edits.
-
 ### Step 6: Organize your Repository
-
-Rename your forked repository to the new company name. Copy the files from your selected layout archetype into the main directory of your repo. Delete unnecessary files. You should have:
-
-- css
-- images
-- index.html
-- js
-- README.md
 
 ### Step 7: Build!
 
-Do your thang:
-
-- Create company identity (Colors, Typography, Imagery)
-- Add content (ipsum is fine - http://meettheipsums.com/)
-- Edit, add additional HTML (as necessary)
-- Edit, add additional CSS (as necessary)
-
-Your website should be a fully-realized, potentially multiple page, static website.
-Here is an exemplar submission: _____.
-
 ### Step 8: Deliver
 
-Email GA with a link to your repo and a list of suggested features you envision on the site (i.e. potential code challenges)
-
 ### Step 9: GA Reviews, Provides Feedback
-
-GA will review your submission and get back to you with any necessary edits.

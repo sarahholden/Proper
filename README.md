@@ -35,11 +35,9 @@ Some examples of JS Code Challenges:
 
 Fill out the following document:
 
-Here is an example submission: 
-
-### Step 4: 
-
-### Step 5: GA Reviews, Provides Feedback
+### Step 4: GA Reviews, Provides Feedback
+ 
+### Step 5: 
 
 ### Step 6: Organize your Repository
 

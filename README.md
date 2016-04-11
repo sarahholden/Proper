@@ -33,7 +33,9 @@ Some examples of JS Code Challenges:
 
 ### Step 3: Complete a Content Outline
 
-Fill out the following document:
+Follow the steps in the following document:
+
+https://docs.google.com/spreadsheets/d/1hdj1cqOYWAd65w-s7v7oSmzQyzLe0L-Sts-H3Bz35fU/edit?usp=sharing
 
 ### Step 4: GA Reviews, Provides Feedback
  
@@ -44,5 +46,15 @@ Fill out the following document:
 ### Step 7: Build!
 
 ### Step 8: Deliver
+
+Generate Animated Gifs of behavior:
+
+Screencast -> 
+
+http://lifehacker.com/the-complete-guide-to-making-animated-gifs-1503276993
+
+http://ezgif.com/video-to-gif
+
+Ensure it is as optimized as possible.
 
 ### Step 9: GA Reviews, Provides Feedback

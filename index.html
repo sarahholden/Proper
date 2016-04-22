@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Site Name</title>
+    <title>Proper Barber Shop</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Questrial|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -18,12 +20,11 @@
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#photos">Photos</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#shop">Shop</a></li>
-          <li><a href="#testimonials">Jobs</a></li>
+          <li><a href="#book">Book</a></li>
+          <li><a href="#testimonials">Work</a></li>
         </ul>
       </nav>
-      <a href="#photos"><img src="images/arrow.svg" alt=""></a>
+      <a href="#photos" class="scroll"><img src="images/arrow.svg" alt=""></a>
     </header>
 
     <section id="photos" class="instagram">
@@ -43,66 +44,75 @@
       <a href="https://www.instagram.com" class="btn">Check out our Instagram</a>
     </section>
     <section id="testimonials" class="testimonials">
-      <blockquote><p>&ldquo;I walked in with an untamed mane and walked out looking like a distinguished gentleman.&rdquo;</p></blockquote>
+      <blockquote><p>&ldquo;I walked in with an untamed mane and walked out a distinguished gentleman.&rdquo;</p></blockquote>
       <p>&mdash; John D.</p>
 
     </section>
 
     <section id="book" class="booking cf">
-      <h2>Book a Service</h2>
-      <div class="col-3">
+      <h2>Book an Appointment</h2>
+      <div id="step_one" class="col-3 progress">
         <p>Choose a service.</p>
         <ul>
           <li>
-            <h3><a href="#">Haircut <span>$35</span></a></h3>
-          </li>
-          <li class="selected">
-            <h3><a href="#">Buzz <span>$18</span></a></h3>
+            <a href="#">Haircut <span>$35</span></a>
           </li>
           <li>
-            <h3><a href="#">Straight Razor Shave <span>$28</span></a></h3>
+            <a href="#">Buzz <span>$18</span></a>
           </li>
           <li>
-            <h3><a href="#">Mustache Trim <span>$5</span></a></h3>
+            <a href="#">Straight Razor Shave <span>$28</span></a>
           </li>
           <li>
-            <h3><a href="#">Beard Trim <span>$11</span></a></h3>
+            <a href="#">Mustache Trim <span>$5</span></a>
           </li>
           <li>
-            <h3><a href="#">Shave &amp; Haircut <span>$10</span></a></h3>
+            <a href="#">Beard Trim <span>$11</span></a>
+          </li>
+          <li>
+            <a href="#">Shave &amp; Haircut <span>$10</span></a>
           </li>
         </ul>
       </div>
-      <div class="col-3">
+      <div id="step_two" class="col-3">
         <p>Choose a stylist.</p>
         <ul>
           <li>
-            <h3><a href="#">Bill</a></h3>
+            <a href="#">Bill</a>
           </li>
           <li>
-            <h3><h3><a href="#">Sharon</a></h3>
+            <a href="#">Sharon</a>
           </li>
           <li>
-            <h3><a href="#">Phil</a></h3>
-          </li>
-          <li class="selected">
-            <h3><a href="#">Ronette</a></h3>
+            <a href="#">Phil</a>
           </li>
           <li>
-            <h3><a href="#">Matt</a></h3>
+            <a href="#">Ronette</a>
           </li>
           <li>
-            <h3><a href="#">Marc</a></h3>
+            <a href="#">Matt</a>
+          </li>
+          <li>
+            <a href="#">Marc</a>
           </li>
         </ul>
       </div>
       <div class="col-3">
         <p>Enter your info.</p>
-        <form action="">
-          <input type="text" placeholder="Full name">
-          <input type="text" placeholder="Phone number">
-          <input type="email" placeholder="Email">
-          <button  class="btn" type="submit">Book Now</button>
+        <form id="booking_form" action="">
+          <div class="input-wrapper">
+            <input id="full_name" type="text" placeholder="Full name" class="error">
+            <div class="error-message">Please enter your full name.</div>
+          </div>
+          <div class="input-wrapper">
+            <input id="phone" type="text" placeholder="Phone number">
+            <div class="error-message">Please enter your full name.</div>
+          </div>
+          <div class="input-wrapper">
+            <input id="email" type="text" placeholder="Email">
+            <div class="error-message">Please enter your full name.</div>
+          </div>
+          <button class="btn" type="submit">Book Now</button>
         </form>
       </div>
     </section>

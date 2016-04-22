@@ -59,11 +59,6 @@ h2 {
   margin-bottom: 3rem;
 }
 
-h3 {
-  display: inline-block;
-  font-weight: bold;
-}
-
 blockquote p {
   font-family: 'Droid Serif', serif;
   font-style: italic;
@@ -96,7 +91,7 @@ header {
 header img {
   width: 60px;
   position: absolute;
-  bottom: 40px;
+  bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -118,7 +113,7 @@ nav a {
 
 header li {
   display: inline-block;
-  margin: 0 2rem;
+  margin: 0 2.5rem;
 }
 
 /*---------------------------------------------------------
@@ -135,6 +130,9 @@ header li {
   width: 32%;
   float: left;
   margin: 0 2% 0 0;
+  text-align: right;
+  border-right: 3px solid #BEEEC6;
+  padding-right: 2rem;
 }
 
 .col-3:nth-of-type(3n) {
@@ -199,30 +197,24 @@ section {
   padding: 4.2rem 2rem 4.6rem;
 }
 
-.booking .col-3 {
-  text-align: right;
-  border-right: 3px solid #BEEEC6;
-  padding-right: 2rem;
+.booking .col-3:nth-of-type(n + 2) {
+/*   display: none; */
 }
 
 .booking .col-3:last-of-type {
   border-right: none;
 }
 
-.booking li {
+.booking a {
+  color: #B69843;
   font-family: 'Droid Serif', serif;
   margin-bottom: 1.8rem;
   padding-bottom: .3rem;
-  float: right;
-  clear: both;
-}
-
-.booking li:last-child {
-  margin-bottom: 0;
-}
-
-.booking a {
-  color: #B69843;
+  font-size: 1.170em;
+  font-weight: 700;
+  display: inline-block;
+  transition: all .3s ease-in-out;
+  border-bottom: 2px solid transparent;
 }
 
 .booking span {
@@ -239,22 +231,35 @@ section {
 }
 
 .booking .btn {
-  width: 100%;
-  margin: 0 0 0 2rem;
+  display: block;
+  margin: 0 0 2.38rem 2rem;
   text-align: right;
+  padding-right: 2rem;
+  width: 100%;
 }
 
-.selected {
+a.selected {
   border-bottom: 2px solid #39413f;
 }
+
+/* .progress {
+  text-align: center;
+  border-right: none;
+  margin: 0 auto;
+  float: none;
+  padding-right: 0;
+} */
+
+
+
 
 /*---------------------------------------------------------
   F O R M S
 ----------------------------------------------------------- */
 input {
   width: 100%;
-  margin: 0 0 2.3rem 2rem;
-  padding: 16px 10px;
+  margin: 0;
+  padding: 1rem 2rem;
   text-align: right;
   font-size: 1rem;
   text-transform: uppercase;
@@ -266,6 +271,31 @@ input {
 input:focus,
 input:active {
   outline: none;
+}
+
+.input-wrapper {
+  position: relative;
+  margin: 0 0 2.38rem 2rem;
+}
+
+.error-message {
+  background-color: #FF6F5E;
+  position: absolute;
+  width: 100%;
+  bottom: -1.6rem;
+  line-height: 1.75rem;
+  font-size: .75rem;
+  padding-right: 2rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  letter-spacing: .03rem;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.error {
+  border-color: #FF6F5E;
 }
 
 /*---------------------------------------------------------
@@ -295,7 +325,7 @@ footer {
   padding: 1.5rem 2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: bold;
 }
 
@@ -309,51 +339,89 @@ footer .social-links a {
 }
 
 
+/*---------------------------------------------------------
+  M E D I A   Q U E R I E S
+----------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+  .col-3 {
+    width: auto;
+    float: none;
+    margin: 0 0 2rem;
+  }
+  .booking .col-3 {
+    text-align: center;
+    border-right: none;
+    padding-right: 0;
+  }
 
-/* @media only screen and (max-width: 1000px) and (min-width: 481px) {
-  figure.col-3 {
+  .booking li {
+    float: none;
+  }
+
+  .booking h3 {
+    display: inline-block;
+  }
+
+  input {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .booking .btn {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .col-4 {
     width: 49%;
   }
-  figure.col-3:nth-of-type(3n) {
+  .col-4:nth-of-type(odd) {
     margin: 0 2% 0 0;
   }
-  figure.col-3:nth-of-type(2n) {
+  .col-4:nth-of-type(even) {
     margin-right: 0;
   }
-}
-
-@media only screen and (max-width: 768px) {
-  html {
-
+  .col-4:nth-of-type(n+3) {
+    margin-top: 20px;
   }
+
+  .fixed-image-panel {
+    height: 250px;
+    background-attachment: scroll;
+    background-position: bottom;
+  }
+
+  header li {
+    margin: 0 .95rem;
+  }
+
 }
 
 @media only screen and (max-width: 480px) {
   html {
-    font-size: 18px;
+    font-size: 14px;
   }
 
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  nav {
-    float: none;
-
+  blockquote p {
+    font-size: 1.75rem;
   }
 
   .featured {
     padding: 1rem;
   }
 
-  .col-3 {
-    width: auto;
-    float: none;
-    margin: 0 0 2rem;
+  header li {
+    margin: 0 .75rem;
   }
+
+  .fixed-image-panel {
+    height: 150px;
+  }
+
+  header {
+    min-height: 450px;
+    background-size: 50%;
+  }
+
 }
- */

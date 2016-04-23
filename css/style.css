@@ -320,9 +320,6 @@ footer {
   font-weight: bold;
 }
 
-footer .social-links {
-}
-
 footer .social-links a {
   display: inline-block;
   font-size: 1.9rem;
@@ -333,24 +330,45 @@ footer .social-links a {
 /*---------------------------------------------------------
   M E D I A   Q U E R I E S
 ----------------------------------------------------------- */
+@media only screen and (max-width: 950px) {
+  html {
+    font-size: 15px;
+  }
+
+  .error-message,
+  input {
+    padding-right: .5rem;
+  }
+
+  .step {
+    padding-right: 1.5rem;
+  }
+
+}
+
+
 @media only screen and (max-width: 768px) {
   .step {
     width: auto;
     float: none;
     margin: 0 0 2rem;
-  }
-  .booking .step {
     text-align: center;
     border-right: none;
     padding-right: 0;
   }
 
-  .booking li {
+  .step li {
     float: none;
   }
 
-  .booking h3 {
+  .step h3 {
     display: inline-block;
+  }
+
+  .step .btn {
+    width: 100%;
+    margin: 0;
+    text-align: center;
   }
 
   input {
@@ -358,10 +376,8 @@ footer .social-links a {
     text-align: center;
   }
 
-  .booking .btn {
-    width: 100%;
-    margin: 0;
-    text-align: center;
+  .input-wrapper {
+    margin: 0 0 2.6rem 0;
   }
 
   .col-4 {
@@ -394,25 +410,26 @@ footer .social-links a {
     font-size: 14px;
   }
 
-  blockquote p {
-    font-size: 1.75rem;
-  }
-
-  .featured {
-    padding: 1rem;
-  }
-
   header li {
     margin: 0 .75rem;
-  }
-
-  .fixed-image-panel {
-    height: 150px;
   }
 
   header {
     min-height: 450px;
     background-size: 50%;
   }
+
+  blockquote p {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .fixed-image-panel {
+    height: 150px;
+  }
+
 
 }

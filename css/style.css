@@ -126,7 +126,7 @@ header li {
   padding: 0 10px;
 }
 
-.col-3 {
+.step {
   width: 32%;
   float: left;
   margin: 0 2% 0 0;
@@ -135,7 +135,7 @@ header li {
   padding-right: 2rem;
 }
 
-.col-3:nth-of-type(3n) {
+.step:nth-of-type(3n) {
   margin-right: 0;
 }
 
@@ -197,15 +197,15 @@ section {
   padding: 4.2rem 2rem 4.6rem;
 }
 
-.booking .col-3:nth-of-type(n + 2) {
-/*   display: none; */
+.step:nth-of-type(n + 2) {
+  display: none;
 }
 
-.booking .col-3:last-of-type {
+.step:last-of-type {
   border-right: none;
 }
 
-.booking a {
+.step a {
   color: #B69843;
   font-family: 'Droid Serif', serif;
   margin-bottom: 1.8rem;
@@ -217,12 +217,12 @@ section {
   border-bottom: 2px solid transparent;
 }
 
-.booking span {
+.step span {
   color: #444444;
   padding-left: 1rem;
 }
 
-.booking p {
+.step > p {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
@@ -230,7 +230,7 @@ section {
   margin-bottom: 2rem;
 }
 
-.booking .btn {
+.step .btn {
   display: block;
   margin: 0 0 2.38rem 2rem;
   text-align: right;
@@ -242,16 +242,6 @@ a.selected {
   border-bottom: 2px solid #39413f;
 }
 
-/* .progress {
-  text-align: center;
-  border-right: none;
-  margin: 0 auto;
-  float: none;
-  padding-right: 0;
-} */
-
-
-
 
 /*---------------------------------------------------------
   F O R M S
@@ -259,9 +249,9 @@ a.selected {
 input {
   width: 100%;
   margin: 0;
-  padding: 1rem 2rem;
+  padding: .95rem 2rem;
   text-align: right;
-  font-size: 1rem;
+  font-size: .9rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
   border: 3px solid #BEEEC6;
@@ -275,7 +265,8 @@ input:active {
 
 .input-wrapper {
   position: relative;
-  margin: 0 0 2.38rem 2rem;
+  margin: 0 0 2.6rem 2rem;
+  width: 100%;
 }
 
 .error-message {
@@ -343,12 +334,12 @@ footer .social-links a {
   M E D I A   Q U E R I E S
 ----------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
-  .col-3 {
+  .step {
     width: auto;
     float: none;
     margin: 0 0 2rem;
   }
-  .booking .col-3 {
+  .booking .step {
     text-align: center;
     border-right: none;
     padding-right: 0;

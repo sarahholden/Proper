@@ -1,79 +1,50 @@
-# GA Credentials
-## Assessment Authoring Task 1: Creating the Codebase
+# Proper Barber Shop
 
-### Step 1: Fork this repository
+## Interactive Booking Form
 
-### Step 2: Choose a Company Archetype
-* Ecommerce 
-  *  For instance: https://www.everlane.com/
-* Creative Portfolio (Actor, Musician, Dancer, Director, etc.)  
-  *  For instance: https://jeremiebattaglia.com/en/
-* Digital Agency  
-  *  For instance: http://etchapps.com/
-* Social Media  
-  *  For instance: https://vine.co/
-* Publication (Web-based) 
-  *  For instance: https://medium.com/
-* Publication (Print-based) 
-  *  For instance: http://www.newyorker.com/
-* Museum / Landmark 
-  *  For instance: https://www.si.edu/
-* Blog / Online Journal 
-  *  For instance: http://dcurt.is/
-* Restaurant  
-  *  For instance: http://www.fifteen.net/
-* Event / Film Landing Page / Invitation  
-  *  For instance: http://vivaco.com/demo/ventcamp/
-* Video / Syndication 
-  *  For instance: https://www.ted.com/
-* Personal Banking  
-  *  For instance: https://www.tdbank.com
+### Instructions
 
-### Step 3: Choose a Layout Archetype
+Proper Barber Shop wants you to build an interactive booking form. 
 
-| Big Hero | Fixed Sidebar | Portfolio | 
-| -------- | ------------- | --------- |
-| ![Big Hero](layouts/big-hero.png) | ![Fixed Sidebar](layouts/fixed-sidebar.png) | ![Portfolio](layouts/portfolio.png) |
-| Can be found in `/big-hero` | Can be found in `/fixed-sidebar` | Can be found in `/portfolio` | 
+The simple form would allow a user to select a service and stylist and enter their contact information to book an appointment. 
 
-### Step 4: Decide on a Company Name and Concept
+The team’s designer has provided you with the following visualization:
 
-Email GA with your proposed:
+![Prompt 1](assets/booking_form.gif)
 
-- Company Archetype 
-- Layout Archetype
-- Company Name
+### What to Code
 
-### Step 5: GA Reviews, Provides Feedback
+When the page first loads, only the first step of the form will be showing.
 
-GA will review your submission and get back to you with any necessary edits.
+When the user selects a service, you will need to:
 
-### Step 6: Organize your Repository
+- Remove the "selected" class from any other services that might have been previously selected.
+- Provide visual feedback that the service has been selected by adding the "selected" class.
+- Fade in the "Choose a stylist" step.
 
-Rename your forked repository to the new company name. Copy the files from your selected layout archetype into the main directory of your repo. Delete unnecessary files. You should have:
+When the user selects a stylist, you will need to:
 
-- css
-- images
-- index.html
-- js
-- README.md
+- Remove the "selected" class from any other stylists that might have been previously selected.
+- Provide visual feedback that the stylist has been selected by adding the "selected" class.
+- Fade in the "Enter your info" step.
 
-### Step 7: Build!
+When the user tabs or clicks out of a form field:
 
-Do your thang:
+- Check to see if the user has entered a value. If the field is empty, add an .error class to the field and insert a "required" message after the input (see below).
+- If the field is the phone number field or email field, check to see if the value the user entered is a valid format. If the format is invalid, add the .error class to the field and insert an "invalid format" message after the input (see below).
 
-- Create company identity (Colors, Typography, Imagery)
-- Add content (ipsum is fine - http://meettheipsums.com/)
-- Edit, add additional HTML (as necessary)
-- Edit, add additional CSS (as necessary)
 
-Your website should be a fully-realized, potentially multi-page, static website.
-Here is an exemplar submission: _____.
+Required message:
 
-### Step 8: Deliver
+    <p class="error-message">This is a required field.</p>
 
-Email GA with a link to your repo and a list of suggested features you envision on the site (i.e. potential code challenges)
 
-### Step 9: GA Reviews, Provides Feedback
+Invalid format message:
 
-GA will review your submission and get back to you with any necessary edits.
+    <p class="error-message">Please enter a valid format.</p>
+
+
+
+
+
+
